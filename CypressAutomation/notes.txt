@@ -1,0 +1,75 @@
+SECTION 1 INTRODUCTION TO CYPRESS AND ITS ANDVANTAGES IN AUTOMATION WORLD
+Cypress čeka na komande I asercije prije nego šta krene dalje
+Šta znači mocking (OPONAŠANJE???) ???? ISTRAŽITI
+Cypress radi u browser
+DOM je programski interfejs ka HTML dokumentu. DOM predstavlja HTML dokumenat (ali i web čitač) u obliku JavaScript objekta.
+
+
+SECTION 2 STEP BY STEP INSTRUCTIONS FOR CYPRESS INSTALLATION & PROJECT SETUP 6
+Instalirati node.js (add variable to path)
+Instalirati Visual Studio Code
+Kreiramo folder za cypress projekt
+Zatim u terminalu upisujemo „npm -i init“  i samo lupat ENTER
+Pa nakon toga instaliramo Cypress: npm install cypress --save-dev
+npx cypress open --> UPISUJEMO KADA CYPRESS POKRECEMO PRVI PUT
+
+Kada u terminal upisemo “npm install” prvo se gleda package.json sta imamo tamo to jest jesmo stavili koju verziju koju želimo instalirati
+
+
+SECTION 3 INTRODUCTION TO CYPRESS TEST RUNNER AND COMMAND LINE FEATURES
+node_modules/.bin/cypress open  pokretanje Cypressa PRVI PUT
+KREIRAMO CUSTOM FOLDER ZA TESTIRANJE u Cypressu kreirat folder integration  examples a u folderi examples kreiramo „.js“ testne fileove….  Zatim idemo u file „cypress.config.js“ dodajemo specPattern: 'cypress/integration/examples/*.js'
+
+
+
+Describe je test suite
+It je test case
+node_modules/.bin/cypress run  pokretanje Cypressa u headless mode-u
+node_modules/.bin/cypress run –headed  headed mode????
+
+FIXTURES - tu pohranjujemo test podatke
+INTEGRATION -  EXAMPLES  tu pohranjujemo sve test case-ove file-ove
+PLUGINS - su listeneri
+SUPPORT - tu pišemo reusable metode u file „commands.js“
+Cypress.config.js - tu definiramo di nam se nalaze testovi… property-ji za setapiranje projekta
+
+DIFOLTNI TIMEOUT 4 SEKUNDE
+U CYPRESS.JSON OVERRIDEAMO DEFAULT KONFIGURACIJSKE SETTINGSE
+
+
+SECTION 4 GETTING STARTED WITH CYPRESS TEST AUTOMATION
+https://rahulshettyacademy.com/seleniumPractise/#/
+https://rahulshettyacademy.com/#/practice-project
+
+Cypress podržava samo CSS lokatore
+ 
+/// <reference types="Cypress" />   za autocompletion
+
+
+SECTION 5 DEEP DIVING INTO CYPRESS COMMANDS AND ITS ASYNCHRONOUS NATURE
+JavaScript je asinkrona…. Svi koraci istovremeno udru server… Cypress je asinkron po prirodi  i ne garantira se sekvencijalno izvršenje 
+al iCypress se brine …
+
+CYPRESS supporta JQUERY metode
+CONSOLE LOG u cypressu printa u developet tools
+.then() koristimo za komande KOJE NISU cypress
+
+SECTION 6 HANDLING WEB CONTROLS UI USING CYPRESS
+Šta
+SECTION 7 ADVANCE AUTOMATION TO HANDLING ALERTS, POPUPS, CHILD WINDOWS USING CYPRESS-JQUERY
+SECTION 8 UNDERSTAND HOW TO AUTOMATE FRAMES & CHILD WINDOWS IN CYPRESS
+SECTION 9 CYPRESS FRAMEWORK PART 1- UNDERSTANDING FIXTURES AND CUSTOM COMMANDS
+SECTION 10 CYPRESS FRAMEWORK PART 2- PAGE OBJECT DESIGN & TEST PARAMETERIZATION
+SECTION 11 CYPRESS FRAMEWORK PART 3- CONFIGURATION PROPERTIES & ENVIROMENTAL VARIABLES
+SECTION 12 CYPRESS FRAMEWORK PART 4- DASHBOARD FEATURE WITH VIDEO RECORDING & SCREENSHOTS
+SECTION 13 CYPRESS FRAMEWORK PART 5- BUILDING NPM SCRIPTS AND INTEGRATION TO JENKINS
+SECTION 14 CYPRESS BDD CUCUMBER FRAMEWORK INTEGRATION TO MOCHA
+SECTION 15 MOCKING HTTP REQUEST/RESPONSES WITH CYPRESS (XHR TESTING)
+SECTION 16 SINGLE SIGN ON (SSO) AUTOMATION TESTING WITH CYPRESS
+SECTION 17 SESSION TOKEN & LOCAL STORAGE DATA SAVING WITH CYPRESS & CSV PARSERS
+SECTION 18 CYPRESS DB INTEGRATION TESTING STRATEGY
+SECTION 19 BONUS – IMPORTANT TIPS FOR YOUR NEW JOB (MUST WATCH)
+SECTION 20 CYPRESS FRAMEWORK CODE DOWNLOAD
+SECTION 21 LEARN JAVA SCRIPT FUNDAMENTALS FROM SCRATCH FOR AUTOMATION
+
+
