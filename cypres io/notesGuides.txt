@@ -1,0 +1,18 @@
+s cypressom mozemo: Set up tests (postaviti), Write tests, Run tests, Debug Tests
+
+cypress omogucuje da pisemo sve vrste testova: 
+End-to-end tests
+Integration tests
+Unit tests
+
+INSTALACIJA I POKRETANJE CYPRESSA:::::
+  npm install cypress --save-dev
+  ./node_modules/.bin/cypress open
+
+E2E test - visits the application in a browser and performs actions via the UI just like a real user would.
+posjeti aplikaciju u web pregledniku i obavi akcije preko UIja kao pravi korisnik
+
+cypress moze testirati komponente, obavi HTTP callove koje mozemo koristiti za testiranje APIja 
+mozemo koristiti  i razne 3rd party plugine
+
+###GUIDES DO GETTING STARTED sam dosa
