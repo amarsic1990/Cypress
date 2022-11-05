@@ -1,2 +1,4 @@
 1. TESTING YOUR FIRST APPLICATION
 
+instaliranje dependencya --> npm install
+pokretanje aplikacije lokalno --> npm run dev
