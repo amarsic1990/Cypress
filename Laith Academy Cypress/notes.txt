@@ -1,0 +1,4 @@
+Cypres se brzo postavlja, jako je brt testovi se brzo izvrsavaju,
+stvarno debagiranje, 
+unit, integration, E2E testovi, 
+dobar GUI...
