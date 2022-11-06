@@ -1,25 +1,31 @@
-/// <reference path="../global.d.ts" />
-// @ts-nocheck
-Cypress.Commands.add("getBySel", (selector, ...args) => {
-  return cy.get(`[data-test=${selector}]`, ...args)
-})
+/// <reference types="cypress"/>
 
-Cypress.Commands.add("getBySelLike", (selector, ...args) => {
-  return cy.get(`[data-test*=${selector}]`, ...args)
-})
+Cypress.Commands.add('getByData', inp => {
+  return cy.get(`[data-test=${inp}]`);
+});
 
-let LOCAL_STORAGE_MEMORY = {}
+// /// <reference path="../global.d.ts" />
+// // @ts-nocheck
+// Cypress.Commands.add("getBySel", (selector, ...args) => {
+//   return cy.get(`[data-test=${selector}]`, ...args)
+// })
 
-Cypress.Commands.add("saveLocalStorage", () => {
-  Object.keys(localStorage).forEach((key) => {
-    LOCAL_STORAGE_MEMORY[key] = localStorage[key]
-  })
-})
+// Cypress.Commands.add("getBySelLike", (selector, ...args) => {
+//   return cy.get(`[data-test*=${selector}]`, ...args)
+// })
 
-Cypress.Commands.add("restoreLocalStorage", () => {
-  Object.keys(LOCAL_STORAGE_MEMORY).forEach((key) => {
-    localStorage.setItem(key, LOCAL_STORAGE_MEMORY[key])
-  })
-})
+// let LOCAL_STORAGE_MEMORY = {}
 
-export {}
+// Cypress.Commands.add("saveLocalStorage", () => {
+//   Object.keys(localStorage).forEach((key) => {
+//     LOCAL_STORAGE_MEMORY[key] = localStorage[key]
+//   })
+// })
+
+// Cypress.Commands.add("restoreLocalStorage", () => {
+//   Object.keys(LOCAL_STORAGE_MEMORY).forEach((key) => {
+//     localStorage.setItem(key, LOCAL_STORAGE_MEMORY[key])
+//   })
+// })
+
+// export {}
