@@ -1,30 +1,5 @@
 1. TESTING YOUR FIRST APPLICATION
 
-instaliranje dependencya --> npm install
-pokretanje aplikacije lokalno --> npm run dev
-
-instaliranje cypressa: npm install cypress --save-dev
-pokretanje cypressa : npx cypress open
-
-COMMAND CHAINING 
-  kada chainamo vise naredbi jednu iza druge.....
 
 
-savjetuje da ne koristimo klasu ni ID??????? jer se minjaju kroz
-koristiti vlastite data attribute
 
-
-kada se nesta novo pojavi na web page-u trebamo napisati test 'should('exist')'
-
-.cy.ts --> ekstenzije fileova
-
-s "context" bolje organiziramo testove.... s contextom grupiramo povezane testove skupa
-
-USER JOURNEY --> korak po korak journey koji korisnik radi kako bi dosao do cilja
-  // e commerce user journey  
-    1. pronac proizvod
-    2. dodat ga u kosaricu
-    3. unijet shipping podatke 
-    4. unijet podatke o kartici 
-    5. platiti
-s jednim testom taknemo sve (UI, API, DB)

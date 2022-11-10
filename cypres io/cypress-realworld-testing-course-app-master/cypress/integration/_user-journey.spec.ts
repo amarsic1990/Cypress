@@ -1,4 +1,11 @@
-import { should } from 'chai';
+// USER JOURNEY --> korak po korak journey koji korisnik radi kako bi dosao do cilja
+// // e commerce user journey
+//   1. pronac proizvod
+//   2. dodat ga u kosaricu
+//   3. unijet shipping podatke
+//   4. unijet podatke o kartici
+//   5. platiti
+// s jednim testom taknemo sve (UI, API, DB)
 
 describe('User Journey', () => {
   it('a user can find a course on the home page and complete the courses lessons', () => {

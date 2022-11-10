@@ -1,3 +1,20 @@
+// instaliranje dependencya --> npm install
+// pokretanje aplikacije lokalno --> npm run dev
+
+// prije toga UDRIT --> npm init
+// instaliranje cypressa: npm install cypress --save-dev
+// pokretanje cypressa : npx cypress open
+
+// COMMAND CHAINING
+//   kada chainamo vise naredbi jednu iza druge.....
+
+// savjetuje da ne koristimo klasu ni ID??????? jer se minjaju kroz
+// koristiti vlastite data attribute
+
+// kada se nesta novo pojavi na web page-u trebamo napisati test 'should('exist')'
+
+// .cy.ts --> ekstenzije fileova
+
 describe('home page', () => {
   // callback funkcija je drugi argument
   // IT je u biti test
@@ -10,6 +27,7 @@ describe('home page', () => {
   /**
    * CONTEXT
    */
+  // s "context" bolje organiziramo testove.... s contextom grupiramo povezane testove skupa
   context('hero section', () => {
     it('the h1 contains the correct text', () => {
       // po best practises na web page-u imamo samo jedan h1
