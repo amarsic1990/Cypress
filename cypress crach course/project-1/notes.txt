@@ -1,0 +1,18 @@
+u cypress.json mozemo dodati razlicite konfiguracije... tu mozemo ignorirati neke file-ove
+cypress.json :::::::::::::::::
+{
+  "baseUrl": "http://localhost:3000/",
+  "ignoreTestFiles": [
+    "**/1-getting-started/*.js",
+    "**/2-advanced-examples/*.js"
+  ],
+  "viewportWidth": 1920,
+  "viewportHeight": 1080
+}
+
+
+
+// get uzima jedan ili vise elemenata po selektoru ili aliasu
+// naming je vrlo vazan
+
+u support --> commands.js tu dodajemo custom commandse
