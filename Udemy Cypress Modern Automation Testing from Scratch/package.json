@@ -1,5 +1,5 @@
 {
-  "name": "cypressautomation",
+  "name": "udemy-cypress-modern-automation-testing-from-scratch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "cypress": "^11.0.1"
+  },
   "devDependencies": {
-    "cypress": "^10.11.0",
     "cypress-iframe": "^1.0.1"
   }
 }
