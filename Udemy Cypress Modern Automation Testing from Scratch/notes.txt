@@ -70,6 +70,23 @@ i na kraju instanciranje te klase
 
 SECTION 10 CYPRESS FRAMEWORK PART 2- PAGE OBJECT DESIGN & TEST PARAMETERIZATION
 SECTION 11 CYPRESS FRAMEWORK PART 3- CONFIGURATION PROPERTIES & ENVIROMENTAL VARIABLES
+enviromental variables su globalne varijable koje su dostupne svagdi... npr URL
+enviroment variable postavljamo u cypress.config.js
+cy.visit(Cypress.env('url')); --> ovako pristupamo environment varijabli
+
+node_modules/.bin/cypress run --> pokrecemo sve testove
+node_modules/.bin/cypress run --spec cypress/integration/examples/Test8Framework.js --> pokretanje samo jednog filea
+
+kada porecemo iz terminala cypress po difoltu pokrece sve u deadless mode-u
+node_modules/.bin/cypress run --spec cypress/integration/examples/Test8Framework.js --env url=http://google.com--headed 
+
+
+IMAMO SCREENSHOTOVE I VIDEA U CYPRESS FOLDERU
+
+page objects (classes) --> stavljamo u support folder
+
+
+
 SECTION 12 CYPRESS FRAMEWORK PART 4- DASHBOARD FEATURE WITH VIDEO RECORDING & SCREENSHOTS
 SECTION 13 CYPRESS FRAMEWORK PART 5- BUILDING NPM SCRIPTS AND INTEGRATION TO JENKINS
 SECTION 14 CYPRESS BDD CUCUMBER FRAMEWORK INTEGRATION TO MOCHA

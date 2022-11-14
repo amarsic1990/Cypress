@@ -8,8 +8,8 @@ module.exports = defineConfig({
     specPattern: 'cypress/integration/examples/*.js',
   },
   env: {
-    url: 'https://rahulshettyacademy.com/',
+    url: 'https://rahulshettyacademy.com',
   },
   defaultCommandTimeout: 6000,
-  pageLoadTimeout: 10000,
+  pageLoadTimeout: 30000,
 });
