@@ -10,6 +10,7 @@ Instalirati node.js (add variable to path)
 Instalirati Visual Studio Code
 Kreiramo folder za cypress projekt
 Zatim u terminalu upisujemo „npm -i init“  i samo lupat ENTER
+"npm init -y" kreirat ce package.json s default vrijednostima
 Pa nakon toga instaliramo Cypress: npm install cypress --save-dev
 npx cypress open --> UPISUJEMO KADA CYPRESS POKRECEMO PRVI PUT
 
