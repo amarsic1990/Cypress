@@ -2,7 +2,7 @@
 
 import HomePage from '../../support/pageObjects/HomePage';
 import ProductPage from '../../support/pageObjects/ProductPage';
-// svagdi moramo staviti function jer do mocka sadrzaja ne mozemo doci iz fukcije
+// svagdi moramo staviti function jer do mocka sadrzaja ne mozemo doci iz arrow funkcije
 // sav setup stavljamo u before metodu
 // before se pokrece jednom prije svih testova u bloku
 describe('Framework test', function () {
